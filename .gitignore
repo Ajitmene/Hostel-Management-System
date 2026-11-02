@@ -1,0 +1,35 @@
+# ==================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==================================
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# Backend secrets
+backend/.env
+backend/django_core/.env
+backend/fastapi_app/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.sqlite3
+staticfiles/
+media/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
